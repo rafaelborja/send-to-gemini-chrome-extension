@@ -5,9 +5,24 @@ This Chrome extension allows users to send selected text to Google Gemini with j
 ## Installation
 
 1. Download and unzip the `SendToGemini.zip` file.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable Developer Mode by toggling the switch at the top-right.
-4. Click on "Load unpacked" and select the unzipped extension folder.
+1. Open Chrome and navigate to `chrome://extensions/`.
+1. Enable Developer Mode by toggling the switch at the top-right. 
+1. Click on "Load unpacked" and select the unzipped extension folder.
+
+## Build process
+
+1. Clone this repository to your local machine.
+1. Navigate to the project directory in a terminal.
+1. Install webpack `npm install --save-dev webpack webpack-cli copy-webpack-plugin`
+1. Run `npm install` to install the required dependencies.
+
+## Building the Extension
+
+To build the extension, run the following command in the project directory:
+
+```bash
+npm run build
+```
 
 ## Usage
 
